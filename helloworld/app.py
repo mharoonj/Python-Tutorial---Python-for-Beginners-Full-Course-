@@ -1,16 +1,8 @@
-birthday_year= "1998"
-# print(type(birthday_year))
-age = 2019 - int(birthday_year)
-# print (age)
+#string methods 
 
+first_name = "haroon"
+last_name = "javed"
 
-# strings
+msg = f"{first_name} [{last_name}] is a coder"
 
-course = "python for beginners"
-print(course[:-10])
-print(course[:]) #cloning a string
-
-
-#string exercise
-name = "Jennifer"
-print(name[1:-1])
+print(msg)
